@@ -65,5 +65,5 @@ def smape(y_true, y_pred):
 def percent_better(y_true, y_pred1, y_pred2):
 	return float((np.absolute(y_true - y_pred1) >= np.absolute(y_true - y_pred2)).sum()) / float(len(y_true))
 
-
+# TODO - Theil U
 
